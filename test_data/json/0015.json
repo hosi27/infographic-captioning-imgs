@@ -1,0 +1,111 @@
+{
+    "file_name": "diagram_analysis.png",
+    "summary": "다이어그램은 데이터 수집 및 정제, 서울시 내 장애인이 살기 좋은 구 선정, 장애인이 살기 좋은 지원 주택 선정의 세 가지 주요 섹션으로 구성되어 있습니다. 각 섹션은 여러 단계와 평가 과정을 포함하고 있으며, 트랙 1과 트랙 2로 나뉘어 있습니다.",
+    "node_count": 10,
+    "connection_count": 9,
+    "components": [
+        {
+            "id": "1",
+            "text": "구별 데이터 수집\n카테고리별 평균치 산출\n데이터 정제\nZ-score 정규화",
+            "node": []
+        },
+        {
+            "id": "2",
+            "text": "포용성 지수 산정\n교육 여건\n보건 복지\n주거 환경\n복지 서비스",
+            "node": []
+        },
+        {
+            "id": "3",
+            "text": "AHP 가중치 산정",
+            "node": []
+        },
+        {
+            "id": "4",
+            "text": "지수를 바탕으로 구 추정 및 평가",
+            "node": []
+        },
+        {
+            "id": "5",
+            "text": "장애인이 살기 좋은 상위 5개구 선정",
+            "node": []
+        },
+        {
+            "id": "6",
+            "text": "접근성 지수 산정\n버스 정류장수\n장애 친화 버스 정류장 비율\n장애인 콜택시\n지하철역",
+            "node": []
+        },
+        {
+            "id": "7",
+            "text": "장애 유형별 가중치 산정\n지체 / 시각 / 청각",
+            "node": []
+        },
+        {
+            "id": "8",
+            "text": "지수를 바탕으로 주택 추정 및 평가",
+            "node": []
+        },
+        {
+            "id": "9",
+            "text": "장애 유형별 추천 지원 주택 선정",
+            "node": []
+        }
+    ],
+    "connections": [
+        {
+            "from": "1",
+            "to": "2",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "4",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "3",
+            "to": "4",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "4",
+            "to": "5",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "6",
+            "to": "8",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "7",
+            "to": "8",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "8",
+            "to": "9",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        }
+    ]
+}

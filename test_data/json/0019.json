@@ -1,0 +1,68 @@
+{
+    "file_name": "diagram.png",
+    "summary": "이 다이어그램은 기획재정부, 보건복지부, 시·도, 시·군·구 간의 관계를 나타내고 있습니다. 각 노드는 관련된 업무와 기능을 설명합니다.",
+    "components": [
+        {
+            "id": "1",
+            "text": "기획재정부\n○ 지역 발전 특별 회계 예산편성 지침 마련",
+            "node": []
+        },
+        {
+            "id": "2",
+            "text": "보건복지부\n○ 지자체별 예산배정\n○ 세부사업 예산 편성기준 및 사업 가이드라인 마련",
+            "node": []
+        },
+        {
+            "id": "3",
+            "text": "시·도\n○ 세부사업 예산 편성\n○ 사업 관리",
+            "node": []
+        },
+        {
+            "id": "4",
+            "text": "시·군·구\n○ 사업수요파악\n○ 사업 집행",
+            "node": []
+        }
+    ],
+    "connections": [
+        {
+            "from": "1",
+            "to": "2",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "1",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "3",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "3",
+            "to": "4",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "4",
+            "to": "3",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        }
+    ]
+}

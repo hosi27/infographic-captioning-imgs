@@ -1,0 +1,55 @@
+{
+    "file_name": "diagram_analysis",
+    "summary": "이 다이어그램은 지자체(보장기관), 한국정보통신진흥협회, 이동통신사 간의 이동전화번호 확인 및 제공 과정을 설명합니다.",
+    "components": [
+        {
+            "id": "1",
+            "text": "지자체(보장기관)\n사회보장정보시스템\n(한국사회보장정보원)",
+            "node": []
+        },
+        {
+            "id": "2",
+            "text": "한국정보통신진흥협회\n복지위기가구\n이동전화번호\n확인시스템",
+            "node": []
+        },
+        {
+            "id": "3",
+            "text": "이동통신사\nSK telecom\nKT\nLGU+\n알뜰폰",
+            "node": []
+        }
+    ],
+    "connections": [
+        {
+            "from": "1",
+            "to": "2",
+            "text": "위기가구 이동전화번호 제공 요청",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "1",
+            "text": "이동전화번호 제공",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "3",
+            "text": "이동전화번호 확인 요청",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "3",
+            "to": "2",
+            "text": "이동전화번호 확인 및 제공",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        }
+    ]
+}

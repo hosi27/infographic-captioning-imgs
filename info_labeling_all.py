@@ -115,5 +115,5 @@ def process_images_in_folder(folder_path):
     return all_responses
 
 # Process all images in the folder
-folder_path ="test"
+folder_path ="images"
 all_responses = process_images_in_folder(folder_path)

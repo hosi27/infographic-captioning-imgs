@@ -1,0 +1,105 @@
+{
+    "file_name": "diagram_analysis",
+    "summary": "이 다이어그램은 대상자, 시군구(주민센터), 보건복지정보개발원, 서비스 제공기관, 수탁운영 간의 관계를 나타내고 있습니다. 대상자는 시군구(주민센터)와 보건복지정보개발원, 서비스 제공기관과 상호작용하며, 시군구(주민센터)는 보건복지정보개발원과 수탁운영과 연결되어 있습니다.",
+    "components": [
+        {
+            "id": "1",
+            "text": "대상자",
+            "node": []
+        },
+        {
+            "id": "2",
+            "text": "시군구(주민센터)",
+            "node": []
+        },
+        {
+            "id": "3",
+            "text": "보건복지정보개발원",
+            "node": []
+        },
+        {
+            "id": "4",
+            "text": "서비스 제공기관",
+            "node": []
+        },
+        {
+            "id": "5",
+            "text": "수탁운영",
+            "node": []
+        }
+    ],
+    "connections": [
+        {
+            "from": "1",
+            "to": "2",
+            "text": "① 신청 및 접수",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "3",
+            "text": "② 자격조사 및 카드발급 요청",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "3",
+            "to": "2",
+            "text": "③ 자격조사 정보",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "3",
+            "to": "1",
+            "text": "④ 대상자 통보 및 카드발급",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "1",
+            "to": "4",
+            "text": "⑤ 서비스 구매",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "4",
+            "to": "1",
+            "text": "⑥ 서비스 제공",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "4",
+            "to": "2",
+            "text": "⑦ 본인부담금 납부",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "5",
+            "text": "⑧ 결과통보",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "5",
+            "to": "3",
+            "text": "⑨ 승인 및 청산",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        }
+    ]
+}

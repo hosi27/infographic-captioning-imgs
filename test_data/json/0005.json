@@ -1,0 +1,132 @@
+{
+    "file_name": "career_path_map.png",
+    "summary": "이 다이어그램은 사회혁신 인재양성을 위한 커리어패스 맵을 보여줍니다. 중심에는 '사회 봉사 의무 교육'이 있으며, 여러 경로로 연결되어 다양한 프로그램과 과정으로 이어집니다. 각 경로는 색상과 방향으로 구분되어 있으며, 최종적으로 'Change maker'로 이어집니다.",
+    "node_count": 10,
+    "connection_count": 9,
+    "components": [
+        {
+            "id": "1",
+            "text": "사회 봉사 의무 교육\n(연간 20,000명)",
+            "node": []
+        },
+        {
+            "id": "2",
+            "text": "APYE",
+            "node": []
+        },
+        {
+            "id": "3",
+            "text": "SVYE",
+            "node": []
+        },
+        {
+            "id": "4",
+            "text": "사회적경제 리더과정(학부)",
+            "node": []
+        },
+        {
+            "id": "5",
+            "text": "희망한대 리더그룹 기본 프로그램",
+            "node": []
+        },
+        {
+            "id": "6",
+            "text": "부트캠프",
+            "node": []
+        },
+        {
+            "id": "7",
+            "text": "소셜벤처 창업스쿨",
+            "node": []
+        },
+        {
+            "id": "8",
+            "text": "사회혁신융합전공",
+            "node": []
+        },
+        {
+            "id": "9",
+            "text": "희망한대리더그룹 사회혁신프로젝트",
+            "node": []
+        },
+        {
+            "id": "10",
+            "text": "사회혁신 대학원 과정",
+            "node": []
+        }
+    ],
+    "connections": [
+        {
+            "from": "1",
+            "to": "2",
+            "text": "",
+            "type": "line",
+            "color": "#ffffff",
+            "direction": true
+        },
+        {
+            "from": "1",
+            "to": "3",
+            "text": "",
+            "type": "line",
+            "color": "#ffffff",
+            "direction": true
+        },
+        {
+            "from": "1",
+            "to": "4",
+            "text": "",
+            "type": "line",
+            "color": "#ffffff",
+            "direction": true
+        },
+        {
+            "from": "1",
+            "to": "5",
+            "text": "",
+            "type": "line",
+            "color": "#ffffff",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "6",
+            "text": "",
+            "type": "line",
+            "color": "#00ffff",
+            "direction": true
+        },
+        {
+            "from": "6",
+            "to": "7",
+            "text": "",
+            "type": "line",
+            "color": "#00ff00",
+            "direction": true
+        },
+        {
+            "from": "4",
+            "to": "8",
+            "text": "",
+            "type": "line",
+            "color": "#ff8000",
+            "direction": true
+        },
+        {
+            "from": "5",
+            "to": "9",
+            "text": "",
+            "type": "line",
+            "color": "#ff8000",
+            "direction": true
+        },
+        {
+            "from": "9",
+            "to": "10",
+            "text": "",
+            "type": "line",
+            "color": "#ff00ff",
+            "direction": true
+        }
+    ]
+}

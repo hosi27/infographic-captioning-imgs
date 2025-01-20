@@ -1,0 +1,60 @@
+{
+    "file_name": "diagram.png",
+    "summary": "이 다이어그램은 지능형 에이전트를 통한 맞춤형 행정복지 안내를 설명하고 있습니다. 주요 구성 요소는 사용자, 건강관리데이터, 사용자 정보 기반 맞춤형 정보제공, 사용자 정보 수집 및 전송으로 나뉘어 있습니다. 각 요소는 서로 연결되어 있으며, 정보의 흐름을 나타내는 화살표로 방향이 표시되어 있습니다.",
+    "components": [
+        {
+            "id": "1",
+            "text": "사용자",
+            "node": []
+        },
+        {
+            "id": "2",
+            "text": "건강관리데이터",
+            "node": []
+        },
+        {
+            "id": "3",
+            "text": "사용자 정보 기반 맞춤형 정보제공",
+            "node": []
+        },
+        {
+            "id": "4",
+            "text": "사용자 정보 수집 및 전송",
+            "node": []
+        }
+    ],
+    "connections": [
+        {
+            "from": "1",
+            "to": "2",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "3",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "3",
+            "to": "4",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "4",
+            "to": "1",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        }
+    ]
+}

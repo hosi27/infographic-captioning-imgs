@@ -1,0 +1,65 @@
+{
+    "file_name": "diagram.png",
+    "summary": "이 다이어그램은 결제 단말기를 통한 결제 과정을 설명하고 있습니다. 각 단계는 화살표로 연결되어 있으며, 각 단계에서 수행해야 할 작업이 명시되어 있습니다.",
+    "components": [
+        {
+            "id": "1",
+            "text": "\"지역사회서비스\" 선택\n결제단말기",
+            "node": []
+        },
+        {
+            "id": "2",
+            "text": "\"서비스코드\" 6자리 입력\n결제단말기",
+            "node": []
+        },
+        {
+            "id": "3",
+            "text": "제공인력별 결제 ID 8자리 입력\n전자바우처 시스템에서 확인",
+            "node": []
+        },
+        {
+            "id": "4",
+            "text": "대상자 카드 접촉\n결제단말기 + 바우처카드",
+            "node": []
+        },
+        {
+            "id": "5",
+            "text": "결제금액 입력\n결제단말기",
+            "node": []
+        }
+    ],
+    "connections": [
+        {
+            "from": "1",
+            "to": "2",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "3",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "3",
+            "to": "4",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "4",
+            "to": "5",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        }
+    ]
+}

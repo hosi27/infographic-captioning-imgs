@@ -1,0 +1,86 @@
+{
+    "file_name": "diagram.png",
+    "summary": "이 다이어그램은 국고보조금 사업정보 사업안내서부터 성과관리까지의 과정을 보여준다. 각 단계는 피드백을 통해 연결되어 있다.",
+    "components": [
+        {
+            "id": "1",
+            "text": "국고보조금 사업정보 사업안내서\n보건복지부",
+            "node": []
+        },
+        {
+            "id": "2",
+            "text": "사업계획수립 통보검토 및 완료\n시도 및 지원단(시군구컨설팅)",
+            "node": []
+        },
+        {
+            "id": "3",
+            "text": "국고보조금 확정통보 사업계획 제출\n보건복지부 시도(시군구컨설팅)",
+            "node": []
+        },
+        {
+            "id": "4",
+            "text": "계획점검 사업관리 자체평가\n시도, 시군구(지원단)",
+            "node": []
+        },
+        {
+            "id": "5",
+            "text": "모니터링 컨설팅 인력교육\n보건복지부, 시도, 지원단",
+            "node": []
+        },
+        {
+            "id": "6",
+            "text": "성과관리\n보건복지부, 시도, 지원단",
+            "node": []
+        }
+    ],
+    "connections": [
+        {
+            "from": "1",
+            "to": "2",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "2",
+            "to": "3",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "3",
+            "to": "4",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "4",
+            "to": "5",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "5",
+            "to": "6",
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": "6",
+            "to": "1",
+            "text": "환류(Feedback)",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        }
+    ]
+}

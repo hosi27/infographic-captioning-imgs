@@ -1,0 +1,199 @@
+{
+    "file_name": "diagram.png",
+    "summary": "이 다이어그램은 경제성장 계측을 설명하며, 수요확대와 공급확대의 두 가지 측면을 다루고 있습니다. 수요확대는 소비 수요 증가와 투자 수요 증가로 구성되며, 공급확대는 노동량, 인적자본, 물적자본의 증가로 구성됩니다. 이러한 요소들은 각각 기초투자, 인적투자, 건강투자, 미래투자와 연결되어 있으며, 사회투자 확대를 통해 생산성과 생산성 향상을 목표로 합니다.",
+    "node_count": 12,
+    "connection_count": 12,
+    "components": [
+        {
+            "id": 1,
+            "text": "경제성장 계측",
+            "node": []
+        },
+        {
+            "id": 2,
+            "text": "수요확대: 단기 GDP 증가",
+            "node": []
+        },
+        {
+            "id": 3,
+            "text": "공급확대: 성장잠재력 확충",
+            "node": []
+        },
+        {
+            "id": 4,
+            "text": "소비 수요 증가",
+            "node": []
+        },
+        {
+            "id": 5,
+            "text": "투자 수요 증가",
+            "node": []
+        },
+        {
+            "id": 6,
+            "text": "기초투자",
+            "node": []
+        },
+        {
+            "id": 7,
+            "text": "인적투자",
+            "node": []
+        },
+        {
+            "id": 8,
+            "text": "건강투자",
+            "node": []
+        },
+        {
+            "id": 9,
+            "text": "미래투자",
+            "node": []
+        },
+        {
+            "id": 10,
+            "text": "노동량",
+            "node": []
+        },
+        {
+            "id": 11,
+            "text": "인적자본",
+            "node": []
+        },
+        {
+            "id": 12,
+            "text": "물적자본",
+            "node": []
+        },
+        {
+            "id": 13,
+            "text": "노동력 증대",
+            "node": []
+        },
+        {
+            "id": 14,
+            "text": "자본 확충",
+            "node": []
+        },
+        {
+            "id": 15,
+            "text": "생산성",
+            "node": []
+        },
+        {
+            "id": 16,
+            "text": "생산성 향상",
+            "node": []
+        },
+        {
+            "id": 17,
+            "text": "사회투자 확대",
+            "node": []
+        }
+    ],
+    "connections": [
+        {
+            "from": 4,
+            "to": 6,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 4,
+            "to": 7,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 5,
+            "to": 7,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 4,
+            "to": 8,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 5,
+            "to": 8,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 4,
+            "to": 9,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 5,
+            "to": 9,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 10,
+            "to": 13,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 11,
+            "to": 14,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 12,
+            "to": 14,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 17,
+            "to": 15,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        },
+        {
+            "from": 17,
+            "to": 16,
+            "text": "",
+            "type": "line",
+            "color": "#000000",
+            "direction": true
+        }
+    ]
+}
