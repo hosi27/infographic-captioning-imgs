@@ -105,6 +105,7 @@ def process_images_in_folder(folder_path):
             response_data = response.choices[0].message.content
             # print(response_data)
             output_file = f"{os.path.splitext(filename)[0]}.json"
+            output_file = os.path.join(folder_path, output_file)
             
             # Save individual JSON file for each image
             with open(output_file, 'w', encoding='utf-8') as f:
@@ -115,5 +116,5 @@ def process_images_in_folder(folder_path):
     return all_responses
 
 # Process all images in the folder
-folder_path ="images"
+folder_path ="imgs"
 all_responses = process_images_in_folder(folder_path)

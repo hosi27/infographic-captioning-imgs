@@ -1,12 +1,12 @@
 import os
 
 # 변경할 파일이 있는 폴더 경로
-folder_path = "temp"
+folder_path = "test_data/yj2/json"
 
 # 파일명 변경 범위 설정
-start_old = 1  # 기존 파일 시작 번호 (0200)
-end_old = 350  # 기존 파일 끝 번호 (0230)
-start_new = 647  # 새 파일 시작 번호 (0300)
+start_old = 321  # 기존 파일 시작 번호 (0200)
+end_old = 330  # 기존 파일 끝 번호 (0230)
+start_new = 967  # 새 파일 시작 번호 (0300)
 
 # 폴더 내 파일 목록 조회
 for old_num in range(start_old, end_old + 1):
